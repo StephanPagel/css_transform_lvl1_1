@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background: tomato;
+    border-radius: 10px;
+    transition: all 1.5s;
+}
+
+div:hover {
+    transform: rotate(90deg) scale(1.7) translatex(150px);
+    transition: all 1.5s;
+}
